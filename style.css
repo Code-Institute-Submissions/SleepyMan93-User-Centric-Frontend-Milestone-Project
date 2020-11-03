@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  border: 1px solid black;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+} 
+
+#carouselIndicators {
+  border: 2px solid black;
+}
+
+.carousel-inner {
+  min-width: 1270px;
+  height: 534px;
+  display: inline-block;
+  position: relative;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#socials {
+  border: 2px solid black;
+}
+
+#socials .col-2 {
+  border: 2px solid red;
+}
+
+#gigs {
+  border: 2px solid black;
+}
+
+#youtube {
+  border: 2px solid black;
+}
+
+#imgBox {
+  border: 2px solid black;
+}
+
+#imgBox .col-6 {
+  border: 2px solid black;
+  padding: 50px;
+}
+
+div .col {
+  margin: auto;
+}
+
+#signUp {
+  border: 2px solid black;
+  padding: 50px;
+  margin: 5px 5px 5px 5px;
+  position: relative;
+}
+
+#signUp .btn {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: -70px 0 0 -170px;
+}
+
+#signButton {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border: 2px solid black;
+  padding: 150px;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 15px;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 5px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
