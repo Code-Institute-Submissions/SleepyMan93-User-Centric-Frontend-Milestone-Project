@@ -62,15 +62,33 @@ body {
 }
 
 #socials {
-  border: 2px solid black;
-}
-
-#socials .col-2 {
-  border: 2px solid red;
+  background-color: black;
 }
 
 #gigs {
-  border: 2px solid black;
+    border: 2px solid black;
+}
+
+#gigs .d-flex {
+    border: 2px solid red;
+    padding: 5px;
+    display: flex;
+}
+
+#eventPic {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    line-height: 0;
+}
+
+#rillsLink {
+    padding: 0 !important;
+    margin-left: 5px;
+}
+
+.likePage {
+    text-siz
 }
 
 #youtube {
@@ -83,8 +101,20 @@ body {
 
 #imgBox .col-6 {
   border: 2px solid black;
-  padding: 50px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
 }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
 
 div .col {
   margin: auto;
@@ -92,30 +122,9 @@ div .col {
 
 #signUp {
   border: 2px solid black;
-  padding: 50px;
-  margin: 5px 5px 5px 5px;
   position: relative;
 }
 
-#signUp .btn {
-  width: 300px;
-  height: 100px;
-  padding: 20px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  margin: -70px 0 0 -170px;
-}
-
-#signButton {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  border: 2px solid black;
-  padding: 10px;
-}
 
 /* Style the form - display items horizontally */
 .form-inline {
@@ -170,3 +179,30 @@ div .col {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+/* Extra small devices */
+@media(max-width:544px){
+    .openbtn .bar-icon .fas {
+        font-size:20px;
+    }
+}
+/* Small devices */
+@media(min-width:544px){
+    .openbtn .bar-icon .fas {
+        font-size:20px;
+    }
+}
+/* Medium devices */
+@media(min-width:768px){
+    {
+        font-size:35px;
+    }
+}
+/* Large devices */
+@media(min-width:992px){
+    {
+        font-size:45px;
+    }
+}
+/* Exrta Large devices */
+@media(min-width:1200px)
