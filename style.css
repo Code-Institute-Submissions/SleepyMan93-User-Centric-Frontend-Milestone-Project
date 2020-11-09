@@ -16,7 +16,7 @@ body {
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: black;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -26,7 +26,7 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #e7e5e5cb;
   display: block;
   transition: 0.3s;
 }
@@ -47,7 +47,7 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: black;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -63,6 +63,7 @@ body {
 
 #socials {
   background-color: black;
+  padding: 5px;
 }
 
 #gigs {
@@ -197,6 +198,9 @@ div .col {
     .openbtn .bar-icon .fas {
         font-size:20px;
     }
+    .row .col-2 .fab {
+        font-size: 15px;
+    }
 }
 /* Small devices */
 @media(min-width:544px){
@@ -206,15 +210,19 @@ div .col {
 }
 /* Medium devices */
 @media(min-width:768px){
-    {
-        font-size:35px;
-    }
+    
 }
+
 /* Large devices */
 @media(min-width:992px){
-    {
-        font-size:45px;
+    .row .col-2 .fab {
+        font-size: 30px;
     }
 }
+
 /* Exrta Large devices */
-@media(min-width:1200px)
+@media(min-width:1200px){
+    .row .col-2 .fab {
+        font-size: 30px;
+    }
+}
