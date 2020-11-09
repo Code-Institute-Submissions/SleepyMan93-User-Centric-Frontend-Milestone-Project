@@ -114,7 +114,19 @@ body {
   color: white;
 }
 
+#shopBtn {
+   position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+#releaseBtn {
+   position: absolute;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 div .col {
   margin: auto;
