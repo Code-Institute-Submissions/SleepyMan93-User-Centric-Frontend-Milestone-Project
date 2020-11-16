@@ -149,37 +149,50 @@
 
     <!--Gigs-->
 
-    <div class="container-fluid" id="gigs">
-      <div class="row" style="text-align: center;">
-        <div class="d-flex p-2 bd-highlight">
-          <img
-            src="images/rills-style.jpg"
-            id="eventPic"
-            style="float: left; margin: 0px 15px 15px 0px;"
-            alt=""
-          />
-          <a href="https://www.facebook.com/TheRills"
-            ><p style="text-align: left;" id="rillsLink">The Rills</p></a
-          >
+        <div class="container-fluid" id="gigs">
+            <div class="row" style="text-align: center;">
+                <div class="d-flex p-1 bd-highlight">
+                    <img
+                        src="images/rills-style.jpg"
+                        id="eventPic"
+                        style="float: left;"
+                        alt=""
+                    />
+                    <div class="Fb-button">
+                    <a href="" class="d-flex" style="color:black; font-size: 19px;">The Rills</a>
+                    <a href="" class="d-flex btn btn-light">
+                    <i class="fab fa-facebook-square fa-sm"></i
+                    >  
+                    <span style="font-size: 11px; font-weight: 500">  Like Page</span>
+                    </a>
+                </div>
+            
+                <div class="row">
+                    <div class="col">
+                        <img src="images/rills-events.jpg" class="d-block w-100" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex" id="gigInfo">
+                <div class="event-date">
+                    <span><p class="date-text" style="font-size: 13px;">DEC</p></span>
+                    <span><p style="font-size: 20px;">18</p></span>
+                </div>
+
+                <div class="event-details">
+                    <span><p style="font-stretched: semi-expanded; font-weight: bold;">The Rills at The Grace, London</p></span>
+                    <span><p style="font-size: 11px;">Fri 18:00 · The Grace · London</p></span>
+                    <span><p style="font-size: 11px; font-weight: 200;">Nid and 5 friends like this place</p></span>
+                </div>
+
+                <div class="event-tickets">
+                    <span><a href="" class="btn btn-light"><p style="font-size: 13px;">Tickets</p></a></span>
+                </div>
+            </div>
+
+            
         </div>
-      </div>
-      <div>
-        <img src="images/rills-events.jpg" class="d-block w-100" alt="" />
-      </div>
-    </div>
-
-    <!--Youtube-->
-
-    <div class="container-fluid text-center" id="youtube">
-      <h1 class="display-4" style="font-size: 200%;">Youtube</h1>
-      <iframe
-        width="1000vw"
-        height="400vh"
-        src="https://www.youtube.com/embed/hr8Mv7fdSJg"
-        frameborder="100"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
     </div>
 
     <!--Merchandise / Releases-->
@@ -191,7 +204,7 @@
           <div class="centered"><p>MERCH</p></div>
           <div class="centered" id="shopBtn">
             <a
-              href="https://l.facebook.com/l.php?u=https%3A%2F%2Frills.bandcamp.com%2Fmerch%2Fclassic-logo-t-shirt%E2%80%AC%3Ffbclid%3DIwAR2iGJI8x_OToYMUjcCOBa-XI0p8AgnWfeqXZGb2CvtzthZ-xuCXKKfn0XU&h=AT23Ikr0i6HYgF0pjCB9maNlOf3iS5NzU--alQKS1YqtIrTiK6TCdQLM6OJBeSZXirBAPUNtfIbhndc9goRr_INP7YX6qiwQTV05yD5bLzkjGXtUPCbMnoKEoBovKUlI7rgVVrQ&__tn__=-UK-R&c[0]=AT3OooCC9RFUUTNEL3wp15bGjN519zUrjeEGDVXJcWhQwB6BJn7ieYP0ihThz7N30gvN9znHoC8JaptALip2dYpmKd3lefMCNPcieLtKjKx3DTj7Sh5s04TcR-BL-ye0zla36PEViV536P2isIaNTzkIai8uiP8lC-QPkjfMCLgu7OM"
+              href="https://rills.bandcamp.com/merch/classic-logo-t-shirt"
               class="btn btn-light text-nowrap z-depth-2"
               role="button"
               >Shop Here</a
@@ -213,6 +226,13 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!--Youtube-->
+    <div id="youtube">
+        <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hr8Mv7fdSJg?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 
     <!--Sign Up!-->
@@ -266,7 +286,7 @@
                 <button
                   type="button"
                   class="close"
-                  style="color:orange"
+                  style="color:white"
                   data-dismiss="modal"
                   aria-label="Close"
                 >
@@ -306,7 +326,7 @@
 
             <!--Grid column-->
             <div class="col-md-12">
-              <p class=" d-flex justify-content-end" style="font-small">Have an account? <a href="#" class="ml-1 font-weight-bold" style="color:#f8803b">
+              <p class="d-flex justify-content-end" style="font-small">Have an account? <a href="#" class="ml-1 font-weight-bold" style="color:#f8803b">
                   Log in</a></p>
             </div>
             <!--Grid column-->
@@ -316,11 +336,6 @@
 
         </div>
       </div>
-    </div>
-    <!--/.Content-->
-  </div>
-
-              
     </div>
 
     <script>
