@@ -71,7 +71,6 @@ body {
 }
 
 #gigs {
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -113,13 +112,21 @@ body {
     color: #182f6dd3
 }
 
-#gigInfo {
-    border: 1px solid black;
+.giginfo {
 }
 
-#gigInfo p {
+.giginfo p {
     margin: -0.3em; 
 }
+
+.giginfo2 {
+    margin-top: 10px;
+}
+
+.giginfo2 p {
+    margin: -0.3em;
+}
+
 
 .event-date {
     width: 15vw;
@@ -144,7 +151,7 @@ body {
 .event-tickets {
     width: 15vw;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 #giginfo .btn {
