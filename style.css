@@ -9,6 +9,10 @@ body {
     width: 100%;
 }
 
+#mySidebar {
+    z-index: 99;
+}
+
 .sidebar {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
