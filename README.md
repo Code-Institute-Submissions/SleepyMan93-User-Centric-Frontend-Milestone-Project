@@ -49,3 +49,13 @@ With this style implemented, adding boxed sections is far easier. These sections
     - CSS is deployed to style and personalise the structured content made with HTML.
 - [Bootstrap](https://getbootstrap.com/)
     - Bootstrap is used to create the building blocks for a user friendly, mobile-first design. It incorporates JavaScript, CSS and HTML functions.
+
+
+
+# Navbar
+- Used navbar-custom to manipulate the background colour. Same principle was applied to the toggler-icon, using the custom class allowed me to change the colour and size to fit the site.
+- Removed bootstraps navbar-toggler with a font awesome image. Allowed me to float the icon and toggle left side of the navbar. I used display:block on the navbar to use all the width available.
+- The nav-link inherits a defined color from Bootstrap. This color can't be overwritten with standard CSS so i used the !important class to force the color override to white.
+
+# carousel
+- Removing my carousel CSS actually corrected my scaling issue. Now when display port is resized the images reduce maintaing their original aspect ratio. Fixing the width to 100 instead of img-fluid helps correct aspect width ratio,
