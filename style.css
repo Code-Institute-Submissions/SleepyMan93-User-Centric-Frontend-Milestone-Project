@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  background-color: black;
+}
+
+#mySidebar {
+    z-index: 99
 }
 
 .sidebar {
@@ -9,7 +14,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -19,13 +24,13 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #f8803b;
   display: block;
   transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: whitesmoke;
 }
 
 .sidebar .closebtn {
@@ -39,22 +44,31 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: transparent;
   color: white;
   padding: 10px 15px;
   border: none;
 }
 
+.openbtn i {
+    padding: 5px;
+    border: 1px solid whitesmoke;
+}
+
 .openbtn:hover {
-  background-color: #444;
+  background-color: transparent;
 }
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 
-
+.carousel-indicators ol {
+    margin-top: 20px;
+}
 
 .carousel-indicators .active{
     background-color: #f8803b;
@@ -116,21 +130,19 @@ body {
     flex-flow: row wrap;
 }
 
-#gigs img {
-}
-
 #gigs a {
     margin-top: 1px;
+    margin-left: 5px;
 }
 
 #gigs .btn {
-    padding: .275rem .5rem;
+    padding: .175rem .5rem;
     border: 0.1em groove #dad5d5 ;
 }
 
 .Fb-button {
     height: 40px;
-    width: 90px;
+    width: 100px;
 }
 
 .Fb-button span {
@@ -143,34 +155,84 @@ body {
 }
 
 .giginfo {
-    margin-left: 2.5px;
-    background-color: white;
+    background-color: whitesmoke;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.giginfo .date-text {
+    margin: -0.3em;
+}
+
+.giginfo .date-number {
+    margin: -0.3em;
 }
 
 .giginfo p {
-    margin: -0.3em; 
+    margin: -0.3em;
+}
+
+.giginfo .btn {
+    padding: 0;
 }
 
 .giginfo2 {
-    margin-top: 20px;
-    background-color: white;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.giginfo2 .date-text {
+    margin: -0.3em;
+    margin-right: 15px;
+}
+
+.giginfo2 .date-number {
+    margin: -0.3em;
 }
 
 .giginfo2 p {
     margin: -0.3em;
 }
 
+.giginfo2 .btn {
+    padding: 0;
+}
+
+.giginfo3 {
+    background-color: whitesmoke;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.giginfo3 .date-text {
+    margin: -0.3em;
+    margin-right: 15px;
+}
+
+.giginfo3 .date-number {
+    margin: -0.3em;
+}
+
+.giginfo3 p {
+    margin: -0.3em;
+}
+
+.giginfo3 .btn {
+    padding: 0;
+}
 
 .event-date {
-    width: 15vw;
-    margin-top: 10px;
+    width: 10vw;
+    margin-top: 12px;
+    margin-right: 5px;
+    margin-left: 25px;
 }
 
 .date-text {
-    color: red;
-    margin-top: 10px;
+    color: #f8803b;
 }
 
 .event-details {
@@ -185,9 +247,10 @@ body {
 }
 
 .event-tickets {
-    width: 15vw;
+    width: 12vw;
     margin-left: 5px;
-    margin-top: 8px;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 #giginfo .btn {
