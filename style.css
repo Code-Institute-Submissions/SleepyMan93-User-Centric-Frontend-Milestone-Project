@@ -1,41 +1,29 @@
 body {
   margin: 0;
-  border: 1px solid black;
-}
-
-.navbar {
-    background-color: black;
-    display: block; 
-    width: 100%;
-}
-
-#mySidebar {
-    z-index: 99;
 }
 
 .sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #f8803b;
+  color: #818181;
   display: block;
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #f1f1f1;
 }
@@ -51,137 +39,42 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: black;
+  background-color: #111;
   color: white;
-  padding: 5px 5px;
+  padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: black;
+  background-color: #444;
 }
 
 #main {
   transition: margin-left .5s;
+  padding: 16px;
 }
 
-.carousel-inner {
-    padding: 5px 0;
+
+
+.carousel-indicators .active{
+    background-color: #f8803b;
 }
 
 #socials {
-  background-color: black;
   padding: 5px;
+  background-color: black;
 }
 
-#gigs {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: normal;
-    align-items: normal;
-    align-content: normal;
-}
-
-#gigs .d-flex {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-#gigs img {
-    margin-bottom: 5px;
-    margin-right: 5px;
-}
-
-#gigs a {
-    margin-top: 1px;
-}
-
-#gigs .btn {
-    padding: .275rem .5rem;
-    border: 0.1em groove #dad5d5 ;
-}
-
-.Fb-button {
-    height: 40px;
-    width: 90px;
-}
-
-.Fb-button span {
-    margin-left: 4px;
-    margin-top: -1px;
-}
-
-.Fb-button i {
-    color: #182f6dd3
-}
-
-.giginfo {
-}
-
-.giginfo p {
-    margin: -0.3em; 
-}
-
-.giginfo2 {
-    margin-top: 10px;
-}
-
-.giginfo2 p {
-    margin: -0.3em;
-}
-
-
-.event-date {
-    width: 15vw;
-    margin-top: 2px;
-}
-
-.date-text {
-    color: red;
-}
-
-.event-details {
-    width: 65vw;
-    margin-top: -3px;
-    margin-left: -5px;
-    margin-bottom: 10px;
-}
-
-.event-details p {
-    text-align: left;
-}
-
-.event-tickets {
-    width: 15vw;
-    margin-left: 5px;
-    margin-top: 8px;
-}
-
-#giginfo .btn {
-    padding: .275rem .5rem;
-}
-
-#eventPic {
-    height: 60px;
-    width: 60px;
-    border: 1px solid black;
-    line-height: 0;
-}
-
-#rillsLink {
-    padding: 0 !important;
-    margin-left: 5px;
-}
-
-.likePage {
-    text-siz
+#socials .row i {
+    color: #ffffffec;
+    font-size: 25px;
 }
 
 #imgBox .col-6 {
   padding: 5px;
   position: relative;
   text-align: center;
+  background-color: black;
 }
 
 .centered {
@@ -208,8 +101,118 @@ body {
   left: 50%;
 }
 
+#gigs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    background-color: black;
+}
+
+#gigs .d-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#gigs img {
+}
+
+#gigs a {
+    margin-top: 1px;
+}
+
+#gigs .btn {
+    padding: .275rem .5rem;
+    border: 0.1em groove #dad5d5 ;
+}
+
+.Fb-button {
+    height: 40px;
+    width: 90px;
+}
+
+.Fb-button span {
+    margin-left: 4px;
+    margin-top: -1px;
+}
+
+.Fb-button i {
+    color: #182f6dd3
+}
+
+.giginfo {
+    margin-left: 2.5px;
+    background-color: white;
+}
+
+.giginfo p {
+    margin: -0.3em; 
+}
+
+.giginfo2 {
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.giginfo2 p {
+    margin: -0.3em;
+}
+
+
+.event-date {
+    width: 15vw;
+    margin-top: 10px;
+}
+
+.date-text {
+    color: red;
+    margin-top: 10px;
+}
+
+.event-details {
+    width: 65vw;
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    text-align: left;
+}
+
+.event-tickets {
+    width: 15vw;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+#giginfo .btn {
+    padding: .275rem .5rem;
+}
+
+#eventPic {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
+#rillsLink {
+    padding: 0 !important;
+    margin-left: 5px;
+}
+
+.likePage {
+    text-siz
+}
+
 #youtube {
-    padding: 5px;
+    padding: 30px;
 }
 
 .videoWrapper {
