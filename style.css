@@ -76,6 +76,7 @@ body {
 
 #socials {
   padding: 5px;
+  margin-bottom: 5px;
   background-color: black;
 }
 
@@ -85,11 +86,23 @@ body {
 }
 
 #imgBox .col-6 {
-  padding: 5px;
   position: relative;
   text-align: center;
-  background-color: black;
+  border: 5px solid black;
 }
+
+#merchBox img {
+    max-width: 100%;
+    max-height: 100%;
+    border-left: none;
+}
+
+#releaseBox img {
+    max-width: 100%;
+    max-height: 100%;
+    border-right: none;
+}
+
 
 .centered {
   position: absolute;
@@ -123,11 +136,15 @@ body {
     align-items: normal;
     align-content: normal;
     background-color: black;
+    border: 5px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 #gigs .d-flex {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row stretch;
 }
 
 #gigs a {
@@ -138,6 +155,21 @@ body {
 #gigs .btn {
     padding: .175rem .5rem;
     border: 0.1em groove #dad5d5 ;
+}
+
+#gigs img{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#imgHolder {
+    position: relative;
+}
+
+#imgHolder .Fb-button {
+    position: absolute;
+    bottom: 140px; /*button position*/
+    right: 345px;
 }
 
 .Fb-button {
@@ -158,7 +190,6 @@ body {
     background-color: whitesmoke;
     margin-left: 8px;
     margin-right: 8px;
-    margin-bottom: 5px;
 }
 
 .giginfo .date-text {
@@ -178,7 +209,7 @@ body {
 }
 
 .giginfo2 {
-    margin-top: 5px;
+    margin-top: 2.5px;
     background-color: whitesmoke;
     margin-left: 8px;
     margin-right: 8px;
@@ -224,6 +255,30 @@ body {
     padding: 0;
 }
 
+.giginfo4 {
+    background-color: whitesmoke;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.giginfo4 .date-text {
+    margin: -0.3em;
+    margin-right: 15px;
+}
+
+.giginfo4 .date-number {
+    margin: -0.3em;
+}
+
+.giginfo4 p {
+    margin: -0.3em;
+}
+
+.giginfo4 .btn {
+    padding: 0;
+}
+
 .event-date {
     width: 10vw;
     margin-top: 12px;
@@ -247,7 +302,6 @@ body {
 }
 
 .event-tickets {
-    width: 12vw;
     margin-left: 5px;
     margin-top: 15px;
     margin-right: 10px;
@@ -255,6 +309,11 @@ body {
 
 #giginfo .btn {
     padding: .275rem .5rem;
+}
+
+#events {
+    border: 5px solid whitesmoke;
+    border-top: none;
 }
 
 #eventPic {
@@ -268,10 +327,6 @@ body {
 #rillsLink {
     padding: 0 !important;
     margin-left: 5px;
-}
-
-.likePage {
-    text-siz
 }
 
 #youtube {

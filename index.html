@@ -113,8 +113,8 @@
 
     <div class="container-fluid" id="imgBox">
       <div class="row">
-        <div class="col-6" id="merchBox">
-          <img src="assets/images/rills-merch2.jpg" class="d-block w-100" alt="" />
+        <div class="col-6 px-0" id="merchBox">
+          <img src="assets/images/rills-merch2.jpg" class="img-fluid w-100" alt="" />
           <div class="centered"><p>MERCH</p></div>
           <div class="centered" id="shopBtn">
             <a
@@ -125,7 +125,7 @@
             >
           </div>
         </div>
-        <div class="col-6" id="releaseBox">
+        <div class="col-6 px-0" id="releaseBox">
           <img src="assets/images/rills-release.jpg" class="d-block w-100" alt="" />
           <div class="centered">
             <p>RELEASES</p>
@@ -145,14 +145,22 @@
     <!--Gigs-->
 
         <div class="container-fluid" id="gigs">
-                <div class="row" style="text-align: center;">
-                    <div class="col">
-                        <img src="assets/images/rills-events.jpg" class="d-block w-100" alt="" />
+                <div class="row">
+                    <div class="d-block" id="imgHolder">
+                        <img src="assets/images/rills-events.jpg" class="img-fluid w-100" alt=""/>
+                        <div class="Fb-button">
+                            <a href="" class="d-flex" style="color:whitesmoke; font-size: 19px;">The Rills</a>
+                            <a href="" class="d-flex btn btn-light">
+                            <i class="fab fa-facebook-square fa-sm"></i
+                            >  
+                            <span style="font-size: 11px; font-weight: 500">  Like Page</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
         </div>
 
-        <div class="container-fluid" id="events">
+        <div class="container-fluid px-1" id="events">
             <div class="d-flex giginfo">
                 <div class="event-date">
                     <span><p class="date-text" style="font-size: 12px;">DEC</p></span>
@@ -206,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="d-flex giginfo3">
+            <div class="d-flex giginfo4">
                 <div class="event-date">
                     <span><p class="date-text" style="font-size: 12px;">JUL</p></span>
                     <span><p class="date-number" style="font-size: 23px;">25</p></span>

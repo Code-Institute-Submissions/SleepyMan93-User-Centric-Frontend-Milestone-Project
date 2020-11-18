@@ -39,7 +39,8 @@ With this style implemented, adding boxed sections is far easier. These sections
 
 ### Features left to implement 
 
-- Unable to implement at this stage of my learning but eventually id like to make an account/login section. With this feature we could make a community hub for people to share stories, photos, videos and generally chat with The Rills community. Will help keep users engaged, wanting to come check out the site and feel connected with the band.
+- Unable to implement at this stage of my learning but eventually id like to make a hub section. With this feature we could make a community area for people to share stories, photos, videos and generally chat amongst The Rills community. Will help keep users engaged, wanting to come check out the site and feel connected with the band.
+- Create an e-shop section so the user can purchase merchandise and releases from the site. Will help with collecting data and API whilst keeping the user on the hub.
 
 # Technology Used
 
