@@ -51,7 +51,41 @@ With this style implemented, adding boxed sections is far easier. These sections
 - [Bootstrap](https://getbootstrap.com/)
     - Bootstrap is used to create the building blocks for a user friendly, mobile-first design. It incorporates JavaScript, CSS and HTML functions.
 
+# Testing
 
+## Buttons
+
+- Sidepanel Collapsable:
+> i. Tested button on computer, mobile and tablet. Sidepanel opens to reveal nav links correctly
+
+> ii. Tested the close button on computer, mobile and tablet. Button closes the Sidepanel without issue.
+
+> iii. Tested all the nav links on computer, mobile and tablet. They all navigate to their corrosponding sections and hover color change works for each link.
+
+- Account Nav Button:
+> i. Tested button on computer, mobile and tablet. The account icon opens up the modal sign up form everytime. 
+
+> ii. Submit button produces no message because I have dont have the appropriate database knowledge yet to store account information but inputs are required.
+
+> iii. Close button has been tested on computer, mobile and tablet. Each time it produces the correc response and closes the modal.
+
+- Social Bar Icons:
+> i. Tested all social icon buttons on computer, mobile and tablet. Each icon takes you to the correct address which will be the The Rills page for each domain. ie. 
+The Facebook icon will take you to their homepage.
+
+- Shopping Panels:
+> i. Probably the most important section in terms of the artist brief. Styled the buttons to be big and bold, attracting the user. 
+The Merch button takes you directly to The Rills bandcamp page which is the only place you can purcahse their Classic T Shirt. The button works on computer, mobile and tablet.
+
+## Viewport Response
+
+## issues
+
+## Bugs
+
+## Styling
+
+## Code Validation
 
 # Navbar
 - Used navbar-custom to manipulate the background colour. Same principle was applied to the toggler-icon, using the custom class allowed me to change the colour and size to fit the site.
