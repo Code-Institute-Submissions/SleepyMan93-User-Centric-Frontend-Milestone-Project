@@ -77,7 +77,30 @@ The Facebook icon will take you to their homepage.
 > i. Probably the most important section in terms of the artist brief. Styled the buttons to be big and bold, attracting the user. 
 The Merch button takes you directly to The Rills bandcamp page which is the only place you can purcahse their Classic T Shirt. The button works on computer, mobile and tablet.
 
+> ii. The Music button, equally as important takes you to The Rills apple music page as I feel their fanbase is more likely to use this application.
+Again, the button has been tested and works correctly on computer, mobile and tablet. Each reponse produces the deired response.
+
+- Events/Gigs section:
+> i. Clicked The Rills link and it took me back to the homepage. Fixed this error in the code as the link destination was incorrect.
+The link now takes you to the desired location, thier Facebook page.
+
+> ii. The homemade **Like Page** button was also intended to take you straight to The Rills Facebook page but again the link was broken.
+Seems there was no link destination in the HTML file at all. I have now rectified this and both butttons work on mobile, computer and tablet.
+
+>iii. The name of each event is associated with the corrosponding event on Facebook to help with reach and ticket sales. All links are working and
+produce the desired response.
+
+>iiii. The ticket buttons are supposed to help with User Experience and symbolism. These links instead of taking you to the Facebook event, take you to the
+direct ticket site. Making it easier and reducing the steps it would take to purchase a ticket. All links work on mobile, computer and tablet.
+
+About/ Sign Up section:
+
+>i. I produced two ways to sign up on the site because as I stated in my future features area, I feel like creating an account for the Hub section could be really powerful for The Rills.
+I intend to utilise the sign up sections and build a reddit esque area for the site. The button works and produces the same modal as the account icon at the top.
+
 ## Viewport Response
+
+
 
 ## issues
 
@@ -85,15 +108,23 @@ The Merch button takes you directly to The Rills bandcamp page which is the only
 
 ## Styling
 
+- Just tested the sign up form button. The modal displays correctly and fits the screen. However, the "Accept Terms" text is in blue, need to make orange like the highlights throughout the site.
+
+
+![alt-text] (https://github.com/SleepyMan93/User-Centric-Frontend-Milestone-Project/blob/master/assets/images/viewport-screenshot.png "Site example on all Viewport Screens)
+
+
 ## Code Validation
 
-# Navbar
+## Navbar
 - Used navbar-custom to manipulate the background colour. Same principle was applied to the toggler-icon, using the custom class allowed me to change the colour and size to fit the site.
 - Removed bootstraps navbar-toggler with a font awesome image. Allowed me to float the icon and toggle left side of the navbar. I used display:block on the navbar to use all the width available.
 - The nav-link inherits a defined color from Bootstrap. This color can't be overwritten with standard CSS so i used the !important class to force the color override to white.
 
-# carousel
-- Removing my carousel CSS actually corrected my scaling issue. Now when display port is resized the images reduce maintaing their original aspect ratio. Fixing the width to 100 instead of img-fluid helps correct aspect width ratio,
+## carousel
+- Removing my carousel CSS actually corrected my scaling issue. Now when display port is resized the images reduce maintaing their original aspect ratio. Fixing the width to 100 instead of img-fluid helps correct aspect width ratio.
+- Removed indicators entirely from the carousel because it lookked clutered and didnt work with the overall aestehtic in the end.
+
 
 
 
@@ -111,7 +142,7 @@ To run the code locally, in the Terminal you will need to type **python3 -m http
 
 The photos used in this site were all obtained from The Rills Facebook page:
 
-> - [HTML] (https://www.facebook.com/TheRills)
+> - [The Rills Facebook] (https://www.facebook.com/TheRills/photos)
 
 ## Acknowledgements
 
