@@ -417,12 +417,44 @@ body {
   height: 100%;
 }
 
-/* --- SIGN UP --- */
+/* --- SIGN UP / ABOUT --- */
+
+#textBox {
+    border: 5px solid whitesmoke;
+    padding: 10px;
+    border-left: none;
+}
+
+#textBox p {
+    color: whitesmoke;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+#textBox i {
+    color: #f8803b;
+}
+
+#aboutBox {
+    border: 5px solid whitesmoke;
+    border-right: none;
+    padding: 10px;
+    padding-left: 10px;
+}
 
 #signUp .col {
   padding: 5px;
   position: relative;
   text-align: center;
+}
+
+#signUp .align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+#signUp .d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
 }
 
 .text-center p {
@@ -432,7 +464,7 @@ body {
 }
 
 .modal-body a {
-  color: whitesmoke;
+  color: #f8803b;
 }
 
 #signupTitle {
@@ -450,7 +482,7 @@ body {
 
 #profileBtn {
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
 }
 
@@ -498,6 +530,27 @@ div .col {
   #signupTitle {
     margin-left: 27%;
   }
+
+  #textBox p {
+    color: whitesmoke;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  #textBox i {
+    color: #f8803b;
+    font-size: 11px;
+  }
+
+  #profileBtn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+  }  
+
+  #profileBtn a {
+    font-size: 8px;
+  }
 }
 
 /* Small devices */
@@ -524,7 +577,29 @@ div .col {
     position: absolute;
     bottom: 85%;
   }
+
+  #textBox p {
+    color: whitesmoke;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  #textBox i {
+    color: #f8803b;
+    font-size: 11px;
+  }
+
+  #profileBtn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+  }  
+
+  #profileBtn a {
+    font-size: 8px;
+  }
 }
+
 /* Medium devices */
 @media (min-width: 768px) {
   #socials i {
@@ -543,12 +618,47 @@ div .col {
   .modal {
     padding-top: 75px;
   }
+
+    #textBox p {
+    color: whitesmoke;
+    font-size: 1.7em;
+    text-align: center;
+  }
+
+  #textBox i {
+    color: #f8803b;
+    font-size: 15px;
+  }
+
+  #profileBtn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+  }  
+
+  #profileBtn a {
+    font-size: 15px;
+  }
+
 }
 
 /* Large devices */
 @media (min-width: 992px) {
   #socials i {
     font-size: 45px;
+  }
+
+  #imgBox {
+      border-bottom: 5px solid whitesmoke;
+  }
+
+  #gigs {
+    border-top: none;
+    width: 86%;
+  }
+
+  #events {
+      width: 86%
   }
 
   .event-tickets {
@@ -568,6 +678,27 @@ div .col {
 
   .modal {
     padding-top: 75px;
+  }
+
+  #textBox p {
+    color: whitesmoke;
+    font-size: 2.3em;
+    text-align: center;
+  }
+
+  #textBox i {
+    color: #f8803b;
+    font-size: 25px;
+  }
+
+  #profileBtn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+  }  
+
+  #profileBtn a {
+    font-size: 25px;
   }
 }
 
