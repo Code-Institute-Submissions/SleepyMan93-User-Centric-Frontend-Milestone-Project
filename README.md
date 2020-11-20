@@ -9,7 +9,12 @@ As a musician and tech user, I've noticed how the large majority of music based 
 
 Nonetheless, my conceptual idea to help resolve this issue hinges on the _nature_ in which social media is consumed. Instead of a traditional landing page, I felt one that invites navigation would be far more intuiative and natural. The ease in which technology can be consumed determines the level of user engagement. A mix of Dashboard and Hub and Spoke structure should compliment this design.
 
+
+
+![alt-text] (https://github.com/SleepyMan93/User-Centric-Frontend-Milestone-Project/commit/28ca4f109247ebc58952adfdfecba5c639aa127d "WireFrame design")
 ###### ***Wireframe model aligned with this concept*** 
+
+
 This intuative layout not only keeps the user engaged, it prompts the user to move down through the homepage. This will help highlight key areas that the band want to focus on. For The Rills, it will help promote their new gigs and merchandise more effectively. Each section can be simple and bold with little information encouraging the user to interact and naviate through the content.
 
 Technology needs to reflect the product. With music being the subject for this product, some components of the site need be dynamic and lively. 
@@ -52,6 +57,8 @@ With this style implemented, adding boxed sections is far easier. These sections
     - Bootstrap is used to create the building blocks for a user friendly, mobile-first design. It incorporates JavaScript, CSS and HTML functions.
 
 # Testing
+
+
 
 ## Buttons
 
@@ -102,9 +109,25 @@ I intend to utilise the sign up sections and build a reddit esque area for the s
 
 
 
-## issues
+## Issues
+
+- Mobile:
+ i. The Rills link and Facebook button keep moving outside of the parent div. Adjusted the bottom and right percentage to help it scale properly for each viewport.
+
+ ii. The ticket buttons on bigger screens were too central. I created a media query to increase the VW associated with the ticket button for medium size screens and over.
+ Equally, on mobile screen the ticket button was too close to the edge so I done the opposite and reduced the VW of the ticket button. Now its placed correctly on all screens.
+
+- Laptop: 
+ i. I kept running into issues with the caraousel indicators with the bigger screen sizes. The indicators kept rendering too low and made the layout look clunky.
+ In the end I removed the indicators altogeher because I felt it gave the header some breathing space and made the logo stand out.
+
+ ii. The social bar icons were also too small on laptop and larger screens so again I introduced a media query which would increase the font size of the icon on screens large and up.
+
+Tested the Facebook button once it had been styled and placed correctly in terms of layout but the link was broken. Addressed the issue in later stage when finalising all the button tests.
 
 ## Bugs
+
+i. Ran into one continuouse bug throughout the building process
 
 ## Styling
 
@@ -116,6 +139,9 @@ I intend to utilise the sign up sections and build a reddit esque area for the s
 
 ## Code Validation
 
+![alt-text] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fsleepyman93.github.io%2FUser-Centric-Frontend-Milestone-Project%2F "HTML Validation link)
+![alt-text] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsleepyman93.github.io%2FUser-Centric-Frontend-Milestone-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings "CSS Validation Link)
+
 ## Navbar
 - Used navbar-custom to manipulate the background colour. Same principle was applied to the toggler-icon, using the custom class allowed me to change the colour and size to fit the site.
 - Removed bootstraps navbar-toggler with a font awesome image. Allowed me to float the icon and toggle left side of the navbar. I used display:block on the navbar to use all the width available.
@@ -124,8 +150,6 @@ I intend to utilise the sign up sections and build a reddit esque area for the s
 ## carousel
 - Removing my carousel CSS actually corrected my scaling issue. Now when display port is resized the images reduce maintaing their original aspect ratio. Fixing the width to 100 instead of img-fluid helps correct aspect width ratio.
 - Removed indicators entirely from the carousel because it lookked clutered and didnt work with the overall aestehtic in the end.
-
-
 
 
 # Deployment
@@ -152,3 +176,5 @@ To avoid any issues of plagiarism, here are the sites used to help create buildi
 > 2. [HTML] (https://mdbootstrap.com)
 > 3. [HTML] (http://stackoverflow.com)
 > 4. [HTML] (https://getbootstrap.com)
+
+
