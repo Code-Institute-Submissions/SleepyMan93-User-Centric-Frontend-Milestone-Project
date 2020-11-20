@@ -60,3 +60,30 @@ With this style implemented, adding boxed sections is far easier. These sections
 
 # carousel
 - Removing my carousel CSS actually corrected my scaling issue. Now when display port is resized the images reduce maintaing their original aspect ratio. Fixing the width to 100 instead of img-fluid helps correct aspect width ratio,
+
+
+
+# Deployment
+
+When the site had been finalised. After all the files, media and css had been pushed to the master branch in Github, the deployment stage could start. 
+I went to the Github repository and clicked on settings. From here I made my way to the 'Github Pages' section. From here, under 'Source', it states "Github Pages is currently disabled". By choosing master in the dropdown menu, as in master branch of this repository, another dropdown menu is offered. 
+This options is asking where to source the Master files from. In this case I chose Root because this is telling Pages to source files from the Root where all the pushed files are stored. Finally by clicking 'Save' Github Pages is now ready to be published under the URL displayed in this section.
+
+To run the code locally, in the Terminal you will need to type **python3 -m http.server** to open a local port. A popup tab will appear in the bottom corner stating 'A service is available at port 8000', click **Open Browser** to deploy the site locally.
+
+#  Credits
+
+## Media
+
+The photos used in this site were all obtained from The Rills Facebook page:
+
+> - [HTML] (https://www.facebook.com/TheRills)
+
+## Acknowledgements
+
+To avoid any issues of plagiarism, here are the sites used to help create building blocks for this site:
+
+> 1. [HTML] (https://www.w3schools.com)
+> 2. [HTML] (https://mdbootstrap.com)
+> 3. [HTML] (http://stackoverflow.com)
+> 4. [HTML] (https://getbootstrap.com)

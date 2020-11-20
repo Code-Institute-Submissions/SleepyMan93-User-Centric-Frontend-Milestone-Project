@@ -5,6 +5,34 @@ body {
 
 /* --- NAV --- */
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.topnav-right .btn {
+  background-color: transparent;
+  width: 40px;
+  margin-top: 4px;
+  border: none;
+  z-index: 1;
+}
+
+.topnav-right i {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
 #mySidebar {
   z-index: 99;
 }
@@ -64,31 +92,25 @@ body {
 #main {
   transition: margin-left 0.5s;
   background-color: transparent;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 5px;
-}
-
-/* --- IMAGE CAROUSEL --- */
-
-.carousel-indicators ol {
-  margin-top: 20px;
-}
-
-.carousel-indicators .active {
-  background-color: #f8803b;
+  padding-right: 10px;
 }
 
 /* --- SOCIALS BAR --- */
 
 #socials {
   padding: 5px;
+  padding-bottom: 15px;
+  margin-top: 10px;
   margin-bottom: 5px;
   background-color: black;
 }
 
-#socials .row i {
+.row i {
   color: whitesmoke;
-  font-size: 25px;
+  font-size: 40px;
+  padding-bottom: 10px;
 }
 
 /* --- MERCH / RELEASES --- */
@@ -105,7 +127,7 @@ body {
 #imgBox .col-6 {
   position: relative;
   text-align: center;
-  border: 5px solid whitesmoke;
+  border-top: 5px solid whitesmoke;
   border-bottom: none;
 }
 
@@ -117,10 +139,19 @@ body {
 
 #imgBox p {
   color: whitesmoke;
-  border: 2px solid #f8803b;
+  border: 5px solid #f8803b;
   padding-top: none;
   padding-bottom: none;
   padding: 10px;
+}
+
+#imgBox a {
+  text-decoration: none;
+}
+
+#merchBox {
+  border-left: 5px solid whitesmoke;
+  border-right: 2.5px solid whitesmoke;
 }
 
 #merchBox img {
@@ -131,6 +162,11 @@ body {
 
 #merchBox span {
   color: #f8803b;
+}
+
+#releaseBox {
+  border-right: 5px solid whitesmoke;
+  border-left: 2.5px solid whitesmoke;
 }
 
 #releaseBox img {
@@ -193,7 +229,7 @@ body {
 
 #gigs .btn {
   padding: 0.175rem 0.5rem;
-  border: 0.1em groove #dad5d5;
+  border: 0.1em groove #dad5d;
 }
 
 #gigs img {
@@ -389,8 +425,14 @@ body {
   text-align: center;
 }
 
+.text-center p {
+    color: whitesmoke;
+    font-weight: 600;
+    line-height: 0.3em;
+}
+
 .modal-body a {
-  color: #f8803b;
+  color: whitesmoke;
 }
 
 #signupTitle {
@@ -434,13 +476,14 @@ div .col {
     font-size: 20px;
   }
 
-  #imgBox i {
-    color: whitesmoke;
-    font-size: 30px;
+  #socials i {
+    font-size: 25px;
   }
 
-  .row .col-2 .fab {
-    font-size: 15px;
+  .event-tickets {
+    width: 10vw;
+    margin-left: 35px;
+    margin-top: 15px;
   }
 
   .openbtn {
@@ -449,18 +492,28 @@ div .col {
 
   #imgHolder .Fb-button {
     position: absolute;
-    bottom: 82%;
+    bottom: 75%;
+  }
+
+  #signupTitle {
+    margin-left: 27%;
   }
 }
+
 /* Small devices */
 @media (min-width: 544px) {
   .openbtn .bar-icon .fas {
     font-size: 20px;
   }
 
-  #imgBox i {
-    color: whitesmoke;
-    font-size: 40px;
+  #socials i {
+    font-size: 25px;
+  }
+
+  .event-tickets {
+    width: 10vw;
+    margin-left: 35px;
+    margin-top: 15px;
   }
 
   .openbtn {
@@ -474,41 +527,33 @@ div .col {
 }
 /* Medium devices */
 @media (min-width: 768px) {
+  #socials i {
+    font-size: 35px;
+  }
+
   .openbtn {
     padding: 0 0;
-  }
-
-  #imgBox i {
-    color: whitesmoke;
-    font-size: 50px;
-  }
-
-  .event-tickets {
-    width: 5vw;
-    margin-left: 30px;
-    margin-top: 15px;
   }
 
   #imgHolder .Fb-button {
     position: absolute;
     bottom: 88%;
   }
+
+  .modal {
+    padding-top: 75px;
+  }
 }
 
 /* Large devices */
 @media (min-width: 992px) {
-  .row .col-2 .fab {
+  #socials i {
     font-size: 45px;
   }
 
-   #imgBox i {
-    color: whitesmoke;
-    font-size: 60px;
-}
-
   .event-tickets {
     width: 5vw;
-    margin-left: 45px;
+    margin-left: 150px;
     margin-top: 15px;
   }
 
@@ -520,21 +565,30 @@ div .col {
   #youtube {
     padding: 60px;
   }
+
+  .modal {
+    padding-top: 75px;
+  }
 }
 
 /* Exrta Large devices */
 @media (min-width: 1200px) {
-  .row .col-2 .fab {
-    font-size: 30px;
+  #socials i {
+    font-size: 50px;
   }
-
-  #imgBox i {
-    color: whitesmoke;
-    font-size: 80px;
-}
 
   #youtube {
     padding: 90px;
   }
 
+  .modal {
+    padding-top: 100px;
+  }
+}
+
+/* Extra Large Monitors */
+@media (min-width: 1500px) {
+  #socials i {
+    font-size: 55px;
+  }
 }

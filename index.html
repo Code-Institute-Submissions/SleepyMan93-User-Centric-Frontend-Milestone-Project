@@ -30,35 +30,39 @@
     ></script>
 
     <!--Nav-->
+    <!--Link used to help build the collapsable sidebar naviagtion (https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp)-->
+    <div class="topnav">
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#main">Home</a>
+        <a href="#imgBox">Shop</a>
+        <a href="#gigs">Events</a>
+        <a href="#signUp">Sign Up</a>
+      </div>
 
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About</a>
-      <a href="#">Sign Up</a>
-    </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">
+          <i class="fas fa-bars"></i>
+        </button>
 
-    <div id="main">
-      <button class="openbtn" onclick="openNav()">
-        <i class="fas fa-bars"></i>
-      </button>
+        <div class="topnav-right">
+          <button
+            class="btn btn-light btn-rounded btn-sm"
+            data-toggle="modal"
+            data-target="#darkModalForm"
+          >
+            <span><i class="far fa-user fa-lg"></i></span>
+          </button>
+        </div>
+      </div>
     </div>
 
     <!--Image Carousel-->
+    <!--Link used to help build the image carousel (https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp)-->
 
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li
-          data-target="#carouselIndicators"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carouselIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselIndicators" data-slide-to="2"></li>
-      </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
@@ -173,7 +177,10 @@
               style="color: whitesmoke; font-size: 19px;"
               >The Rills</a
             >
-            <a href="" class="d-flex btn btn-light">
+            <a
+              href="https://www.facebook.com/TheRills"
+              class="d-flex btn btn-light"
+            >
               <i class="fab fa-facebook-square fa-sm"></i>
               <span style="font-size: 11px; font-weight: 500;"> Like Page</span>
             </a>
@@ -337,6 +344,7 @@
     </div>
 
     <!--Sign Up!-->
+    <!--Link used to help build my modal form (https://mdbootstrap.com/docs/jquery/forms/builder/)-->
 
     <!-- Button trigger modal -->
     <div class="container-fluid" id="signUp">
@@ -347,6 +355,7 @@
             class="d-block w-100"
             alt=""
           />
+
           <div class="centered" id="profileBtn">
             <a
               href=""
@@ -407,6 +416,7 @@
                   type="email"
                   id="Form-email5"
                   class="form-control validate"
+                  required="required"
                 />
                 <label data-error="wrong" data-success="right" for="Form-email5"
                   >Your email</label
@@ -418,6 +428,7 @@
                   type="password"
                   id="Form-pass5"
                   class="form-control validate"
+                  required="required"
                 />
                 <label data-error="wrong" data-success="right" for="Form-pass5"
                   >Your password</label
@@ -430,7 +441,7 @@
                 <div class="text-center mb-3 col-md-12">
                   <button
                     type="button"
-                    class="btn btn-light btn-lg btn-rounded z-depth-2"
+                    class="btn btn-light btn-lg btn-rounded"
                   >
                     Sign up
                   </button>
@@ -449,13 +460,10 @@
                   ><i class="fab fa-facebook-square fa-lg"></i
                 ></a>
                 <a href="https://twitter.com"
-                  ><i class="fab fa-twitter-square fa-lg"></i
+                  ><i class="fab fa-twitter fa-lg"></i
                 ></a>
-                <a href="">
+                <a href="https://linkdin.com">
                   <i class="fab fa-linkedin fa-lg"></i>
-                </a>
-                <a type="button" class="light-blue-text mx-2">
-                  <i class="fab fa-github"></i>
                 </a>
               </div>
             </div>
