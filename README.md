@@ -193,5 +193,12 @@ To avoid any issues of plagiarism, here are the sites used to help create buildi
    ![Code Example](assets/images/code-example.png)
    ![CSS Validator fixes](assets/images/fixed-css-issues.png)
 
+   - Through inspecting the website using chrome developer tools, I realised the "row-stretch" value creating the issue and the flex flow property
+   are not even needed. Removed both to pass the validator. When checking in with my mentor, I addressed the 6 CSS issues that seemed valid. The two remaining
+   I'm really not sure what the indicate. None of my code has these properties or values especially at line 6 as indicated. Hope this is enough of a correction to
+   pass the learning objective.
+
+   ![CSS Final Validation](assets/images/jigsaw-validation.png)
+
 
 
