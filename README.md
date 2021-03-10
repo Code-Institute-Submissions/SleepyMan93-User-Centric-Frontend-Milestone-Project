@@ -2,6 +2,8 @@
 
 I've decied to build The Rills a site to help with their promotion, gigs and merchandise. Prior to coding, I worked in the music industry and feel my knowledge can be applied positively for this project. 
 
+![Viewport Site Examples](assets/images/viewport-screenshot.png)
+
 # UX 
 
 This website is for an Indie band called **The Rills**. The Rills are a relatively new band so we can assume the majority of their fans will be of Scoial Media age. 
@@ -11,7 +13,7 @@ Nonetheless, my conceptual idea to help resolve this issue hinges on the _nature
 
 
 
-![alt-text] (https://github.com/SleepyMan93/User-Centric-Frontend-Milestone-Project/commit/28ca4f109247ebc58952adfdfecba5c639aa127d "WireFrame design")
+![WireFrame Design](assets/images/wireframe.jpg)
 ###### ***Wireframe model aligned with this concept*** 
 
 
@@ -57,8 +59,6 @@ With this style implemented, adding boxed sections is far easier. These sections
     - Bootstrap is used to create the building blocks for a user friendly, mobile-first design. It incorporates JavaScript, CSS and HTML functions.
 
 # Testing
-
-
 
 ## Buttons
 
@@ -134,13 +134,10 @@ i. Ran into one continuouse bug throughout the building process
 - Just tested the sign up form button. The modal displays correctly and fits the screen. However, the "Accept Terms" text is in blue, need to make orange like the highlights throughout the site.
 
 
-![alt-text] (https://github.com/SleepyMan93/User-Centric-Frontend-Milestone-Project/blob/master/assets/images/viewport-screenshot.png "Site example on all Viewport Screens)
-
-
 ## Code Validation
 
-![alt-text] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fsleepyman93.github.io%2FUser-Centric-Frontend-Milestone-Project%2F "HTML Validation link)
-![alt-text] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsleepyman93.github.io%2FUser-Centric-Frontend-Milestone-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings "CSS Validation Link)
+[HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsleepyman93.github.io%2FUser-Centric-Frontend-Milestone-Project%2F "HTML Validation link)
+[CSS Validatior](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsleepyman93.github.io%2FUser-Centric-Frontend-Milestone-Project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings "CSS Validation Link)
 
 ## Navbar
 - Used navbar-custom to manipulate the background colour. Same principle was applied to the toggler-icon, using the custom class allowed me to change the colour and size to fit the site.
@@ -166,15 +163,35 @@ To run the code locally, in the Terminal you will need to type **python3 -m http
 
 The photos used in this site were all obtained from The Rills Facebook page:
 
-> - [The Rills Facebook] (https://www.facebook.com/TheRills/photos)
+> - [The Rills Facebook](https://www.facebook.com/TheRills/photos)
 
 ## Acknowledgements
 
 To avoid any issues of plagiarism, here are the sites used to help create building blocks for this site:
 
-> 1. [HTML] (https://www.w3schools.com)
-> 2. [HTML] (https://mdbootstrap.com)
-> 3. [HTML] (http://stackoverflow.com)
-> 4. [HTML] (https://getbootstrap.com)
+> 1. [w3School](https://www.w3schools.com)
+> 2. [mdBootstrap](https://mdbootstrap.com)
+> 3. [StackOverflow](http://stackoverflow.com)
+> 4. [Bootstrap](https://getbootstrap.com)
+
+# Resubmission
+
+## Correcting links
+   - Added target="_blank" to all the href links on the page. Deployed the site and tested every clickable link. Each link now 
+   directs you to a new page, maintaining focus for the main site.
+
+## Cleaning up README file
+   - Ammended incorrect image file links. Wireframe now displays correctly.
+   - Reformatted README file 
+
+## Jigsaw Validation
+   - Ammended CSS issues indicated by the Jigsaw Validator 
+   - One issue claimed that "stretch" is not a "flex-flow" value and to correct to "row-stretch".
+   After checking my code, "row-stretch" was already the value in place so not sure why the validator produced an error here.
+   I've attached some screen shots to highlight this.
+
+   ![Code Example](assets/images/code-example.png)
+   ![CSS Validator fixes](assets/images/fixed-css-issues.png)
+
 
 

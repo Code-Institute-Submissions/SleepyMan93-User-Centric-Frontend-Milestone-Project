@@ -117,8 +117,8 @@ body {
 
 #imgBox {
   width: 100%;
-  padding-right: none;
-  padding-left: none;
+  padding-right: 0;
+  padding-left: 0;
   margin-right: auto;
   margin-left: auto;
   border-bottom: none;
@@ -140,8 +140,8 @@ body {
 #imgBox p {
   color: whitesmoke;
   border: 5px solid #f8803b;
-  padding-top: none;
-  padding-bottom: none;
+  padding-top: 0;
+  padding-bottom: 0;
   padding: 10px;
 }
 
@@ -229,7 +229,7 @@ body {
 
 #gigs .btn {
   padding: 0.175rem 0.5rem;
-  border: 0.1em groove #dad5d;
+  border: 0.1em groove #DAD5DD;
 }
 
 #gigs img {
@@ -488,6 +488,12 @@ body {
 
 div .col {
   margin: auto;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* --- MEDIA QUERIES --- */
