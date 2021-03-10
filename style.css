@@ -219,7 +219,6 @@ body {
 
 #gigs .d-flex {
   display: flex;
-  flex-flow: row stretch;
 }
 
 #gigs a {
